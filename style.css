@@ -1,0 +1,61 @@
+body{
+background-image: url(https://animeforums.net/uploads/monthly_2016_03/erased-wide.jpg.e30e44cec3f7deb678253b2448e86f47.jpg);
+background-position: 50% 0%;
+}
+
+.all{
+	bottom: 10%;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:15%;
+
+}
+
+.up{
+		display: flex;
+		text-align: center;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+.btn{
+margin:0px 15px;
+text-align: center;
+}
+
+button{
+	outline: 1px solid #CD853F;
+	box-shadow: -3px 3px 6px 6px #000;
+	width: 80px;
+	height: 40px;
+	border-radius: 20px;
+	background-image: url(https://img.myloview.ru/posters/worn-sheet-copper-metal-texture-close-up-background-400-135676777.jpg);
+	border: 2px solid rgba(0, 0, 0, 0.01);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+	/*opacity: 80%;*/
+	margin:0px 15px 10px 15px; 
+}
+
+p{
+	background: rgb(0, 0, 0);
+		/*background-image: url(https://i.pinimg.com/originals/c3/0b/d7/c30bd7f09a6111e8e5fa2bd917e3d85c.jpg);*/
+    color: rgba(186, 161, 100, 0.7);
+    border-radius:40px;
+    padding:0 5px;
+}
+
+@media(max-width: 750px){
+	body{
+		font-size: 50%;
+	}
+	.all{width:auto;}
+}
+
+.active{
+	/*transform: scale(0.9);*/
+	border: none;
+	outline: 2px solid #CD853F;
+	box-shadow: none;
+	box-shadow: inset 0px 0px 8px 6px #000, inset 0px 0px 8px 6px #000;
+} 
