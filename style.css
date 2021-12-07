@@ -1,6 +1,7 @@
+
+
 body{
-background-image: url(https://animeforums.net/uploads/monthly_2016_03/erased-wide.jpg.e30e44cec3f7deb678253b2448e86f47.jpg);
-background-position: 50% 0%;
+background: url(bg.jpg) 50% 0/100% auto no-repeat #000;
 }
 
 .all{
@@ -25,16 +26,20 @@ text-align: center;
 }
 
 button{
-	outline: 1px solid #CD853F;
-	box-shadow: -3px 3px 6px 6px #000;
+	/*outline: 1px solid #CD853F;*/
+
 	width: 80px;
 	height: 40px;
 	border-radius: 20px;
-	background-image: url(https://img.myloview.ru/posters/worn-sheet-copper-metal-texture-close-up-background-400-135676777.jpg);
-	border: 2px solid rgba(0, 0, 0, 0.01);
-    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+	background: url(https://andreik7.github.io/On_Off/BG-BUTTON.png) no-repeat #000;
+	border: ;
+	box-shadow: -6px 3px 4px 3px rgb(0 0 0 / 62%);
+   border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 	/*opacity: 80%;*/
 	margin:0px 15px 10px 15px; 
+	border:0;
+	border-bottom: 5px solid #000;
+	transition-duration: 0.1s;
 }
 
 p{
@@ -54,8 +59,31 @@ p{
 
 .active{
 	/*transform: scale(0.9);*/
-	border: none;
-	outline: 2px solid #CD853F;
+	top:4px;
+	border:0;
+	/*outline: 2px solid #000;*/
+	border-top: 6px solid #000;
+   border-right: 3px solid #000;
 	box-shadow: none;
-	box-shadow: inset 0px 0px 8px 6px #000, inset 0px 0px 8px 6px #000;
+	box-shadow: inset -8px 4px 4px 3px rgb(0 0 0 / 62%);
+	/*box-shadow: inset 0px 0px 8px 6px #000, inset 0px 0px 8px 6px #000;*/
 } 
+
+button:hover{
+	top:1px;
+	box-shadow: -6px 3px 4px 2px rgb(0 0 0 / 62%);
+
+	margin:0px 15px 10px 15px; 
+	border:0;
+	border-bottom: 4px solid #000;
+}
+
+button.active:hover{
+	top:4px;
+	border:0;
+	/*outline: 2px solid #000;*/
+	border-top: 7px solid #000;
+   border-right: 3px solid #000;
+	box-shadow: none;
+	box-shadow: inset -8px 4px 4px 3px rgb(0 0 0 / 62%);
+}
